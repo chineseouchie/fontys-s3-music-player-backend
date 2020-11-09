@@ -3,6 +3,7 @@ image: maven:latest
 build:
   stage: build
   script:
+    - mvn -version
     - mvn compile
 
 test:
